@@ -1,40 +1,40 @@
 ﻿
 using System.Text;
 
-  // Console.WriteLine(OldPhone.OldPhonePad("33#")); // Output: E
-  // Console.WriteLine(OldPhone.OldPhonePad("227*#")); // Output: B
-  // Console.WriteLine(OldPhone.OldPhonePad("2222 77 *#")); // Output: A
-  Console.WriteLine(OldPhone.OldPhonePad("2222 #")); // Output: A
-  // Console.WriteLine(OldPhone.OldPhonePad("2222 77 #")); // Output: AQ
-  // Console.WriteLine(OldPhone.OldPhonePad("4433555 555666#")); // Output: HELLO
-  // Console.WriteLine(OldPhone.OldPhonePad("8 88777444666*664#")); // Output: ?????
+Console.WriteLine(OldPhone.OldPhonePad("33#")); // Output: E
+Console.WriteLine(OldPhone.OldPhonePad("227*#")); // Output: B
+Console.WriteLine(OldPhone.OldPhonePad("2222 77 *#")); // Output: A
+Console.WriteLine(OldPhone.OldPhonePad("2222 #")); // Output: A
+Console.WriteLine(OldPhone.OldPhonePad("2222 77 #")); // Output: AQ
+Console.WriteLine(OldPhone.OldPhonePad("4433555 555666#")); // Output: HELLO
+Console.WriteLine(OldPhone.OldPhonePad("8 88777444666*664#")); // Output: ?????
 
 
-    public enum ButtonType
+public enum ButtonType
+{
+    Digit2 = 2,
+    Digit3 = 3,
+    Digit4 = 4,
+    Digit5 = 5,
+    Digit6 = 6,
+    Digit7 = 7,
+    Digit8 = 8,
+    Digit9 = 9,
+    Digit0 = 0,
+}
+
+public class Button(ButtonType type, string characters)
+{
+    public ButtonType Type { get; } = type;
+    private string Characters { get; } = characters;
+
+    public char GetCharacterAt(int index)
     {
-        Digit2 = 2,
-        Digit3 = 3,
-        Digit4 = 4,
-        Digit5 = 5,
-        Digit6 = 6,
-        Digit7 = 7,
-        Digit8 = 8,
-        Digit9 = 9,
-        Digit0 = 0,
+        return Characters[index % Characters.Length];
     }
+}
 
-    public class Button(ButtonType type, string characters)
-    {
-        public ButtonType Type { get; } = type;
-        private string Characters { get; } = characters;
-
-        public char GetCharacterAt(int index)
-        {
-            return Characters[index % Characters.Length];
-        }
-    }
-
-public  static class OldPhone
+public static class OldPhone
 {
     private static readonly Dictionary<ButtonType, Button> Buttons;
     static OldPhone()
@@ -53,7 +53,7 @@ public  static class OldPhone
         };
     }
 
-    
+
     public static string OldPhonePad(string input)
     {
         if (string.IsNullOrEmpty(input) || input[^1] != '#')
