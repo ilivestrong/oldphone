@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OldPhone_tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31ce661ef832abea5f02401d95600c118ef46c86")]
 [assembly: System.Reflection.AssemblyProductAttribute("OldPhone_tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OldPhone_tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

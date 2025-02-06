@@ -12,3 +12,4 @@
 /Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.pdb
 /Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.genruntimeconfig.cache
 /Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/ref/oldphone.dll
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.sourcelink.json

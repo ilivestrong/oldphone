@@ -108,3 +108,4 @@
 /Users/deep/RiderProjects/oldphone/OldPhone_tests/obj/Debug/net9.0/OldPhone_tests.pdb
 /Users/deep/RiderProjects/oldphone/OldPhone_tests/obj/Debug/net9.0/OldPhone_tests.genruntimeconfig.cache
 /Users/deep/RiderProjects/oldphone/OldPhone_tests/obj/Debug/net9.0/ref/OldPhone_tests.dll
+/Users/deep/RiderProjects/oldphone/OldPhone_tests/obj/Debug/net9.0/OldPhone_tests.sourcelink.json

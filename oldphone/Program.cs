@@ -1,10 +1,13 @@
 ﻿
 using System.Text;
 
-  Console.WriteLine(OldPhone.OldPhonePad("33#")); // Output: E
-  Console.WriteLine(OldPhone.OldPhonePad("227*#")); // Output: B
-  Console.WriteLine(OldPhone.OldPhonePad("4433555 555666#")); // Output: HELLO
-  Console.WriteLine(OldPhone.OldPhonePad("8 88777444666*664#")); // Output: ?????
+  // Console.WriteLine(OldPhone.OldPhonePad("33#")); // Output: E
+  // Console.WriteLine(OldPhone.OldPhonePad("227*#")); // Output: B
+  // Console.WriteLine(OldPhone.OldPhonePad("2222 77 *#")); // Output: A
+  Console.WriteLine(OldPhone.OldPhonePad("2222 #")); // Output: A
+  // Console.WriteLine(OldPhone.OldPhonePad("2222 77 #")); // Output: AQ
+  // Console.WriteLine(OldPhone.OldPhonePad("4433555 555666#")); // Output: HELLO
+  // Console.WriteLine(OldPhone.OldPhonePad("8 88777444666*664#")); // Output: ?????
 
 
     public enum ButtonType
@@ -27,7 +30,7 @@ using System.Text;
 
         public char GetCharacterAt(int index)
         {
-            return Characters[index];
+            return Characters[index % Characters.Length];
         }
     }
 

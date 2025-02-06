@@ -55,4 +55,16 @@ public class OldPhoneTests
     {
         Xunit.Assert.Equal("", OldPhone.OldPhonePad("227 $$"));
     }
+    
+    [Fact]
+    public void OldPhonePad_ReturnsFirstCharacterWhenKeyPressedFourTimes()
+    {
+        Xunit.Assert.Equal("A", OldPhone.OldPhonePad("2222 #"));
+    }
+    
+     [Fact]
+    public void OldPhonePad_ReturnsEmpty_WhenKeyPressedFourTimes_With_Backspace()
+    {
+        Xunit.Assert.Equal("", OldPhone.OldPhonePad("2222 *"));
+    }
 }
