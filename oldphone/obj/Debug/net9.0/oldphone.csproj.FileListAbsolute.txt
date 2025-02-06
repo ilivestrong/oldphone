@@ -1,0 +1,14 @@
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.GeneratedMSBuildEditorConfig.editorconfig
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.AssemblyInfoInputs.cache
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.AssemblyInfo.cs
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.csproj.CoreCompileInputs.cache
+/Users/deep/RiderProjects/oldphone/oldphone/bin/Debug/net9.0/oldphone
+/Users/deep/RiderProjects/oldphone/oldphone/bin/Debug/net9.0/oldphone.deps.json
+/Users/deep/RiderProjects/oldphone/oldphone/bin/Debug/net9.0/oldphone.runtimeconfig.json
+/Users/deep/RiderProjects/oldphone/oldphone/bin/Debug/net9.0/oldphone.dll
+/Users/deep/RiderProjects/oldphone/oldphone/bin/Debug/net9.0/oldphone.pdb
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.dll
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/refint/oldphone.dll
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.pdb
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/oldphone.genruntimeconfig.cache
+/Users/deep/RiderProjects/oldphone/oldphone/obj/Debug/net9.0/ref/oldphone.dll
